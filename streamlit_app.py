@@ -1,6 +1,5 @@
 # Import python packages
 import streamlit as st
-pip install snowflake-sqlalchemy
 from snowflake.snowpark.functions import col
 cnx = st.connection("snowflake")
 session = cnx.session()
